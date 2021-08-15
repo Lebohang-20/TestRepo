@@ -14,11 +14,13 @@ int main()
 	auto answer = num1 * num2; // type deduced for 'answer' is: complex<float>
 
 	cout << "The answer is: " << answer << endl;
-	cout << "Or in a more familiar form: " << answer.real() 
-			<< " + " << answer.imag() << "j" 
+	cout << "Or in a more familiar form: " << answer.real()
+			<< " + " << answer.imag() << "j"
 			<< endl	<< endl;
 
 	// answer++;
+
+	cout << "David " << endl;
 
 	return 0;
 }
